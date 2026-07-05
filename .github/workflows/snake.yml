@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: Platane/snk@v3
         with:
-          github_user_name: roohan-514
+          github_user_name: HZY1618yzh
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
@@ -25,5 +25,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           destination_dir: output
-          user_name: roohan-514
-          user_email: roohan.rizvi@gmail.com
+          user_name: HZY1618yzh
+          user_email: 13326945856@sina.cn
